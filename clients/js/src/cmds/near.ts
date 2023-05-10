@@ -4,8 +4,7 @@ import { Account, KeyPair, connect } from "near-api-js";
 import { InMemoryKeyStore } from "near-api-js/lib/key_stores";
 import { parseSeedPhrase } from "near-seed-phrase";
 import yargs from "yargs";
-import { CONTRACTS, NETWORK_OPTIONS, RPC_OPTIONS } from "../consts";
-import { NETWORKS } from "../networks";
+import { CONTRACTS, NETWORKS, NETWORK_OPTIONS, RPC_OPTIONS } from "../consts";
 import { assertNetwork } from "../utils";
 
 // Near utilities
